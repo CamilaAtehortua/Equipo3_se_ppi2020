@@ -1,0 +1,177 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.contenedor {
+  background-color: rgb(151, 200, 240);
+  height: 420px;
+  width: 400px;
+  text-align: center;
+  padding: 50px;
+  margin-right: 20%;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+.Iniciar {
+  text-align: center;
+}
+
+.Tevento {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin:15%;
+}
+
+
+.boton1 {
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 10px 15px;
+  background-color: white;
+  color: rgb(82, 13, 172)!important;
+  margin-left:10% ;
+}
+
+.cerrar1{
+margin: 8%;
+margin-left: 40%;
+margin-right: 4px;
+}
+
+
+.Registrate{
+text-align: center;
+font-size: 50px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.bregistro{
+width: 300px;
+margin: 15px;
+}
+
+.Nombre {
+  padding: 30px;
+  font-size: 25px;
+}
+
+.InicioSesion{
+  margin: 50px;
+  margin-left: 100px;
+}
+
+.Registrar{
+  margin: 50px;
+  margin-left: 100px;
+}
+.Eve1{
+  margin:8%;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.Teve1{
+  width: 400px;
+  font-size: 135%;
+  text-align: justify;
+  margin-left: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.Deven{
+margin-left: 50px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.botrosev{
+margin: 30px;
+text-align: center;
+}
+
+.adm{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin:35px;
+}
+
+.beventos{
+padding: 40px;
+margin: 5px;
+margin-left:150px;
+}
+
+.pmatriculadas{
+  padding: 40px;
+  margin: 5px;
+margin-left:100px;
+}
+
+.Sadm{
+margin: 10%;
+margin-left:75px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 30px;
+}
+
+.eveadm{
+  margin: 10%;
+  margin-left:75px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.beveadm{
+  width: 40%;
+  margin-left:75px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 120%;
+}
+
+.batras{
+padding:15px;
+width:30%;
+margin: 9%;
+}
+
+.bañadir{
+  margin:5%;
+  margin-left:75px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 120%;
+}
+
+.añadire{
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+}
+
+.prm{
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 50px;
+}
+
+.seleccionar{
+margin: 8%;
+}
+
+.lista{
+  margin: 8%;
+}
+
+.batras2{
+  margin-left: 20px;
+  padding:12px;
+}
+
+.cerrar2{
+margin-left: 20px;
+margin: 10%;
+padding: 9px;
+}
+
+.batras3{
+margin:3%;
+margin-left:60px;
+}
+
