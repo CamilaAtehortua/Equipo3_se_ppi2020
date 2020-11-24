@@ -1,5 +1,5 @@
 import React from "react";
-
+import {link} from "react-router-dom";
 function D_Subir_event() {
   return (
 <>
@@ -47,9 +47,13 @@ function D_Subir_event() {
             </p>
           </form>
 
-          <button className="batras3">Atrás</button>
+          <button className="batras3">
+          <link to="/Seccion_adm">Atrás </link>
+          </button>
           
-          <button className="subir"> Subir </button>
+          <button className="subir">
+          <link to="/Eventos_adm">subir</link>
+          </button>
         
   
 </div>

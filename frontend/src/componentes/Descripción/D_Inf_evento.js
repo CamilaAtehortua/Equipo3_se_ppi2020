@@ -1,5 +1,5 @@
 import React from "react";
-
+import {link} from "react-router-dom";
 function D_Inf_evento() {
   return (
     <>
@@ -48,7 +48,9 @@ function D_Inf_evento() {
             </p>
           </form>
 
-          <button className="botrosev"> Mirar otros eventos</button>
+          <button className="botrosev">
+          <link to="/Evento">Mirar otros eventos </link>
+          </button>
           <button>Aceptar</button>
         </div>
         <div class="col-md-3"></div>

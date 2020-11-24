@@ -1,5 +1,5 @@
 import React from "react";
-
+import {link} from "react-router-dom";
 function D_Seccion_adm() {
   return (
     <>
@@ -13,10 +13,14 @@ function D_Seccion_adm() {
             <b> Eventos </b>{" "}
           </button>
           <button className="pmatriculadas">
-            <b> Personas matriculadas </b>{" "}
+            <b> Personas matriculadas
+              <link to="/Pr_matr">Personas matriculadas </link>
+            </b>{" "}
           </button>
 
-          <button className="cerrar2">cerrar sesión</button>
+          <button className="cerrar2">
+          <link to="/Pagina_iniciar">Cerrar sesión </link>
+          </button>
           <div class="col-md-3"></div>
         </div>
       </div>

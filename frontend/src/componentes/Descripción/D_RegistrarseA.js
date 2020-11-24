@@ -1,5 +1,5 @@
 import React from "react";
-
+import {link} from "react-router-dom";
 function D_RegistrarseA() {
   return (
     <div>
@@ -74,7 +74,9 @@ function D_RegistrarseA() {
                         id="exampleInputPassword1"
                       ></input>
 
-                      <button class="bregistro"> Finalizar Registro </button>
+                      <button class="bregistro">
+                      <link to="/Seccion_adm">Finalizar registro </link>
+                      </button>
                     </div>
                   </div>
                 </div>

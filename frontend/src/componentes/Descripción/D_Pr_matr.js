@@ -1,5 +1,5 @@
 import React from "react";
-
+import {link} from "react-router-dom";
 function D_Pr_matr() {
   return (
 <>
@@ -34,7 +34,9 @@ function D_Pr_matr() {
     <span class="badge badge-primary badge-pill">1</span>
   </li>
 </ul>
-<button className="batras2">Atrás</button>
+<button className="batras2">
+<link to="/Seccion_adm">Atrás </link>
+</button>
 </div>
 
 </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import {link} from "react-router-dom";
 function D_pagina_iniciar() {
   return (
     <>
@@ -21,10 +22,8 @@ function D_pagina_iniciar() {
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="#">
-                    Visitante
                   </a>
-                  <a class="dropdown-item" href="#">
-                    Administrador
+                  <a class="dropdown-item" href="#"> 
                   </a>
                 </div>
               </div>
@@ -41,12 +40,13 @@ function D_pagina_iniciar() {
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                   <a class="dropdown-item" href="#">
-                    Visitante
+                  <link to="/Registrarse">Visitante </link>
                   </a>
                   <a class="dropdown-item" href="#">
-                    Administrador
+                  <link to="/RegistrarseA">Administrador </link>
                   </a>
                 </div>
+               
               </div>
             </div>
           </div>
