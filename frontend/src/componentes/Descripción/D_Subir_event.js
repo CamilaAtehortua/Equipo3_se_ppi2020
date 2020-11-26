@@ -48,7 +48,7 @@ function D_Subir_event() {
           </form>
 
           <button className="batras3">
-          <Link to="/Seccion_adm">Atrás </Link>
+          <Link to="/Eventos_adm">Atrás </Link>
           </button>
           
           <button className="subir">

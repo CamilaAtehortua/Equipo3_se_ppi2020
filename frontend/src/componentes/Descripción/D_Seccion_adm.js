@@ -10,16 +10,16 @@ function D_Seccion_adm() {
             <b> SESIÓN DE ADMINISTRADOR </b>{" "}
           </h1>
           <button className="beventos">
-            <b> Eventos </b>{" "}
+            <b> <Link to="/Eventos_adm">Eventos </Link> </b>{" "}
           </button>
           <button className="pmatriculadas">
-            <b> Personas matriculadas
+            <b> 
               <Link to="/Pr_matr">Personas matriculadas </Link>
             </b>{" "}
           </button>
 
           <button className="cerrar2">
-          <Link to="/Pagina_iniciar">Cerrar sesión </Link>
+          <Link to="/Pagina_inicial">Cerrar sesión </Link>
           </button>
           <div class="col-md-3"></div>
         </div>

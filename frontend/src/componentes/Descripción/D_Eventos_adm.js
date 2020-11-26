@@ -30,9 +30,30 @@ function D_Eventos_adm() {
               <li class="divider"></li>
             </ul>
           </div>
+
+          <button className="beveadm"> Desfile de Silleteritos </button>
+          <div class="btn-group">
+            <button
+              type="button"
+              class="btn btn-default dropdown-toggle"
+              data-toggle="dropdown"
+            >
+              Opciones <span class="caret"></span>
+            </button>
+
+            <ul class="dropdown-menu" role="menu">
+              <li>
+                <a href="#">Eliminar</a>
+              </li>
+              <li>
+                <a href="#">Editar</a>
+              </li>
+              <li class="divider"></li>
+            </ul>
+          </div>
           <div>
             <button className="bañadir"> 
-            <Link to="/Subir_evento">Añadir evento </Link>
+            <Link to="/Subir_event">Añadir evento </Link>
 </button>
           </div>
           <div>

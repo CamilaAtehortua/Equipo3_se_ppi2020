@@ -8,9 +8,13 @@ function D_Evento() {
         <div class="col-md-3 col-sm-8">
           <h1 className="Tevento">Eventos Disponibles</h1>
           <a class="boton1" href="#">
-          <Link to="/Inf_evento"> Día de los Sancochos </Link>
-           
+          <Link to="/Inf_evento1"> Día de los Sancochos </Link>
+           </a>
+           <div>
+           <a class="boton1" href="#">
+          <Link to="/Inf_evento2"> Desfile de Silleteritos </Link>
           </a>
+          </div>
           <button className="cerrar1">
           <Link to="/Pagina_inicial"> Cerrar sesión </Link>
           </button>

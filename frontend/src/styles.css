@@ -59,12 +59,14 @@ margin: 15px;
 
 .InicioSesion{
   margin: 50px;
-  margin-left: 100px;
+  margin-left: 120px;
+  padding: 30px;
 }
 
 .Registrar{
   margin: 50px;
-  margin-left: 100px;
+  margin-left: 120px;
+  padding: 35px;
 }
 .Eve1{
   margin:8%;
@@ -175,3 +177,14 @@ margin:3%;
 margin-left:60px;
 }
 
+.visitante{
+  padding: 40px;
+  margin: 5px;
+  margin-left:110px;
+}
+
+.administrador{
+  padding: 40px;
+  margin: 5px;
+  margin-left:90px;
+}
