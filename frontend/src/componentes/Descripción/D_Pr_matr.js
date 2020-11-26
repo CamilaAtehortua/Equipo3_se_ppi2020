@@ -1,5 +1,5 @@
 import React from "react";
-import {link} from "react-router-dom";
+import {Link} from "react-router-dom";
 function D_Pr_matr() {
   return (
 <>
@@ -35,7 +35,7 @@ function D_Pr_matr() {
   </li>
 </ul>
 <button className="batras2">
-<link to="/Seccion_adm">Atrás </link>
+<Link to="/Seccion_adm">Atrás </Link>
 </button>
 </div>
 

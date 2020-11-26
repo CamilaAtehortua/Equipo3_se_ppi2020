@@ -17,13 +17,12 @@ class App extends React.Component {
     return (
       <BrowserRouter>
         <Switch>
-          <Route exact path="/" component={Pagina_inicial} />
+          <Route exact path="/Pagina_inicial" component={Pagina_inicial} />
           <Route exact path="/Evento" component={Evento} />
           <Route exact path="/Registrarse" component={Registrarse} />
           <Route exact path="/Iniciar_sesion" component={Iniciar_sesion} />
           <Route exact path="/Iniciar_sesionA" component={Iniciar_sesionA} />
           <Route exact path="/RegistrarseA" component={RegistrarseA} />
-          <Route exact path="/Iniciar_sesion" component={Iniciar_sesion} />
           <Route exact path="/Inf_evento" component={Inf_evento} />
           <Route exact path="/Seccion_adm" component={Seccion_adm} />
           <Route exact path="/Eventos_adm" component={Eventos_adm} />

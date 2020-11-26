@@ -1,5 +1,5 @@
 import React from "react";
-import {link} from "react-router-dom";
+import {Link} from "react-router-dom";
 function D_Eventos_adm() {
   return (
     <>
@@ -32,12 +32,12 @@ function D_Eventos_adm() {
           </div>
           <div>
             <button className="bañadir"> 
-            <link to="/Subir_evento">Añadir evento </link>
+            <Link to="/Subir_evento">Añadir evento </Link>
 </button>
           </div>
           <div>
             <button className="batras">
-            <link to="/Seccion_adm">Atrás </link>
+            <Link to="/Seccion_adm">Atrás</Link>
             </button>
           </div>
         </div>

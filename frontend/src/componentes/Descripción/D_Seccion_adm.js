@@ -1,5 +1,5 @@
 import React from "react";
-import {link} from "react-router-dom";
+import {Link} from "react-router-dom";
 function D_Seccion_adm() {
   return (
     <>
@@ -14,12 +14,12 @@ function D_Seccion_adm() {
           </button>
           <button className="pmatriculadas">
             <b> Personas matriculadas
-              <link to="/Pr_matr">Personas matriculadas </link>
+              <Link to="/Pr_matr">Personas matriculadas </Link>
             </b>{" "}
           </button>
 
           <button className="cerrar2">
-          <link to="/Pagina_iniciar">Cerrar sesión </link>
+          <Link to="/Pagina_iniciar">Cerrar sesión </Link>
           </button>
           <div class="col-md-3"></div>
         </div>

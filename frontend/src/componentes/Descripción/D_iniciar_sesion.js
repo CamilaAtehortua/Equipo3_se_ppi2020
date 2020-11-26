@@ -1,5 +1,5 @@
 import React from "react";
-import {link} from "react-router-dom";
+import {Link} from "react-router-dom";
 function D_iniciar_sesion() {
   return (
     <>
@@ -37,11 +37,9 @@ function D_iniciar_sesion() {
                       </label>
                     </div>
                    <button type="submit" class="btn btn-primary">
-                      <link to="/Evento"> Iniciar </link>
+                      <Link to="/Evento"> Iniciar </Link>
                    </button>
-                   <button className="btn-warning">
-                      Iniciar
-                   </button>
+                   
                   </div>
                 </div>
               </form>
