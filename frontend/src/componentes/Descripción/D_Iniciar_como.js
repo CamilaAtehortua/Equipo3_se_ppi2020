@@ -20,7 +20,7 @@ function D_Iniciar_como() {
           </button>
 
           <button className="cerrar2">
-          <Link to="/Pagina_inicial">Atrás </Link>
+          <Link to="/">Atrás </Link>
           </button>
 
 

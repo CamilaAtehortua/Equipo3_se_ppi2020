@@ -19,7 +19,7 @@ function D_Seccion_adm() {
           </button>
 
           <button className="cerrar2">
-          <Link to="/Pagina_inicial">Cerrar sesión </Link>
+          <Link to="/">Cerrar sesión </Link>
           </button>
           <div class="col-md-3"></div>
         </div>

@@ -16,7 +16,7 @@ function D_Evento() {
           </a>
           </div>
           <button className="cerrar1">
-          <Link to="/Pagina_inicial"> Cerrar sesión </Link>
+          <Link to="/"> Cerrar sesión </Link>
           </button>
         </div>
       </div>
